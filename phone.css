@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#img1 {
+    height: 50px;
+    width: 100px;
+    /* display: inline; */
+    margin: 3px 0px 0px 3px;
+    border-radius: 10px;
+    display: inline;
+}
+
+#navbar::before {
+    /* display: block; */
+    content: "";
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: rgb(77, 70, 70); */
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: relative;
+    /* flex-wrap: wrap; */
+    top: 0px;
+    z-index: 19;
+}
+
+#ul1 {
+    
+    display: inline;
+    display: flex;
+    list-style: none;
+    /* margin: auto; */
+    justify-content: space-around;
+    width: 100vw;
+    /* margin-top: 0px; */
+}
+
+li>a {
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-shadow: 0 0 3px #050505, 0 0 3px #000000;
+}
+
+li>a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;            
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    padding: 20px 200px;
+    height: 400px;
+    /* flex-wrap: wrap; */
+
+}
+
+#home::before {
+    /* display: block; */
+    content: "";
+    background: url('./1297010.jpg') no-repeat center;
+    background-size: cover;
+    height: 480px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+    border-bottom: 2px solid rgb(114, 0, 0);
+}
+
+section>p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.2rem;
+    text-shadow: 0 0 1px #050505, 0 0 1px #000000;
+}
+
+.h-primary {
+    font-size: 4rem;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Dancing Script';
+}
+
+.btn {
+    background-color: palevioletred;
+    border: none;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    width: 200px;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai 2';
+}
+
+.btn:hover {
+    background-color: rgb(122, 6, 122);
+    cursor: pointer;
+}
+
+#food {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div img {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.card {
+    /* display: flex; */
+    flex-direction: column;
+    border: 4px solid rgb(114, 0, 0);
+    width: 30%;
+    height: 320px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 0px 10px;
+    margin-top: 10px;
+    background-color: rgb(226, 209, 209);
+
+}
+
+.card:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+div p {
+    padding: 20px;
+    font-size: 1em;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+#food_h {
+    width: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.h-secondary {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+#partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#h_partners {
+    display: block;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 0 0 7px #050505, 0 0 5px #000000
+}
+
+.partner_items {
+    padding: 20px;
+}
+
+#partners_section {
+    margin-top: 80px;
+    position: relative;
+    border-top: 2px solid rgb(121, 0, 20);
+    border-bottom: 2px solid rgb(121, 0, 20);
+    /* height: 400px; */
+}
+
+#partners_section::before {
+    content: "";
+    background: url('./team-1572486.jpg') no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#contacts {
+    width: 500px;
+    margin: auto;
+}
+
+#contacts input,
+#contacts textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid pink;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+#contacts_h1 {
+    width: 230px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 0 0 7px #050505, 0 0 5px #000000
+
+
+}
+label{
+    color: white;
+    text-shadow: 0 0 3px #050505, 0 0 5px #000000 
+}
+
+#contacts_section {
+    margin-top: 80px;
+    height: 550px;
+    position: relative;
+    border-top: 2px solid rgb(121, 0, 20);
+    border-bottom: 2px solid rgb(121, 0, 20);
+
+}
+
+#contacts_section::before {
+    content: "";
+    background: url('./pink-6028231.jpg') no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.form-group label {
+    font-family: 'Baloo Bhai 2';
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+footer {
+    display: block;
+    background-color: rgb(211, 166, 173);
+    text-align: center;
+    /* width: 450px; */
+    margin: auto;
+    border: 2px solid rgb(121, 0, 20);
+
+}
+
+@media (max-width:1000px){
+*{
+        padding: 0px;
+        margin:0px;
+    }
+    
+    #home{
+        overflow: hidden;
+        height: 380px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    #home p{
+        font-size: 0.8rem;
+        padding: 0px 10px;
+    }
+    .h-primary{
+        font-size: 2rem;
+    }
+    #food{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        padding: 0px;
+        margin: 0px;
+    }
+    .card{
+        margin: 0px;
+        padding : 0px;
+        margin-bottom: 10px;
+        width: 90%;
+        margin: 10px;
+    }
+    .card img{
+        height: 50%;
+        width: 35%;
+    }
+    .card p{
+        display: block;
+        padding: 0px 0px;
+        margin: auto;
+        font-size: 0.9rem;
+        height: 40%;
+        width: 60%;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    #navbar{
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+    #navbar ul{
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    #navbar ul li a{
+        padding: 0px 7px;
+        font-size: 1rem;
+    }
+    #contacts_section{
+        overflow: hidden;
+    }
+    /* #partners_section{
+        height:500px;
+    } */
+    #partners{
+        height: 100%;
+    }
+    .partner_items img{
+        height: 100px;
+        width: 100px;
+    }
+    #contacts form{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    #contacts{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .h-secondary{
+        font-size: 2rem;
+    }
+    #contacts_h1{
+        width: 150px;
+        color: white;
+        text-shadow: 0 0 3px #050505, 0 0 5px #000000
+        
+    }
+    .form-group{
+        font-size: 0.1rem;
+    }
+    #food_h{
+        width: 100px;
+    }
+    #h_partners{
+        color: white;
+        width: 180px;
+        
+    }
+    label{
+        color: white;
+        text-shadow: 0 0 3px #050505, 0 0 5px #000000
+    }
+}
