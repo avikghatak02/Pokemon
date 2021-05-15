@@ -391,10 +391,12 @@ footer {
     }
     #food_h{
         width: 100px;
+        text-align: centre;
     }
     #h_partners{
         color: white;
         width: 350px;
+        text-align: centre;
         
     }
     label{
