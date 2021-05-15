@@ -384,7 +384,8 @@ footer {
     #contacts_h1{
         width: 225px;
         color: white;
-        text-shadow: 0 0 3px #050505, 0 0 5px #000000
+        text-shadow: 0 0 3px #050505, 0 0 5px #000000;
+        margin: auto;
         
     }
     .form-group{
@@ -396,6 +397,7 @@ footer {
     #h_partners{
         color: white;
         width: 180px;
+        
         
     }
     label{
