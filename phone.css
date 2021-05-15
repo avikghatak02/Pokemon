@@ -193,7 +193,7 @@ div p {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: centre;
+    text-align: center;
     color: white;
     text-shadow: 0 0 7px #050505, 0 0 5px #000000
 }
@@ -382,7 +382,7 @@ footer {
         font-size: 2rem;
     }
     #contacts_h1{
-        width: 230px;
+        width: 150px;
         color: white;
         text-shadow: 0 0 3px #050505, 0 0 5px #000000
         
@@ -395,11 +395,11 @@ footer {
     }
     #h_partners{
         color: white;
-        width: 250px;
+        width: 180px;
         
     }
     label{
         color: white;
-        text-shadow: 0 0 3px #050505, 0 0 5px #000000
+        text-shadow: 0 0 3px #050505, 0 0 5px #000000;
     }
 }
