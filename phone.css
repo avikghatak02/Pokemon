@@ -381,7 +381,7 @@ footer {
         font-size: 2rem;
     }
     #contacts_h1{
-        width: 250px;
+        width: 230px;
         color: white;
         text-shadow: 0 0 3px #050505, 0 0 5px #000000
         
@@ -391,12 +391,10 @@ footer {
     }
     #food_h{
         width: 100px;
-        text-align: centre;
     }
     #h_partners{
         color: white;
-        width: 350px;
-        text-align: centre;
+        width: 320px;
         
     }
     label{
