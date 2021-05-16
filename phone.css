@@ -382,10 +382,11 @@ footer {
         font-size: 2rem;
     }
     #contacts_h1{
-        width: 225px;
+        width: 220px;
         color: white;
         text-shadow: 0 0 3px #050505, 0 0 5px #000000;
         margin: auto;
+        text-align: center;
         
     }
     .form-group{
